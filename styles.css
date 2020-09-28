@@ -1,0 +1,136 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  left: 0;
+  font-weight: 2em;
+  font-size: 1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background: deepskyblue;
+}
+
+.conteiner h1 {
+  text-align: center;
+  font-size: 50px;
+  color: rgba(42, 51, 180, 0.883);
+  transition: all 1s;
+  background-color: lightcyan;
+}
+.conteinerDiv {
+  background-color: rgba(218, 79, 15, 0.192);
+  width: 100%;
+  height: 80px;
+  padding: 5px;
+}
+
+.conteiner__nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.conteiner__nav a {
+  font-size: 20px;
+  font-weight: 20px;
+  text-decoration: none;
+}
+.conteiner__nav a:hover {
+  background: rgb(32, 87, 32);
+}
+
+.conteiner-all {
+  border-top: 5px solid rgb(101, 126, 197);
+  border-bottom: 5px solid rgb(101, 126, 197);
+}
+
+.conteiner-all img {
+  width: 400px;
+  float: left;
+  margin: 20px;
+}
+
+.conteiner-all p {
+  font-size: 18px;
+  font-weight: 300;
+  padding-right: 20px;
+  margin: 10px;
+  background-color: rgba(49, 146, 62, 0.774);
+}
+
+.conteiner-all2 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: #068760;
+  margin: 10px;
+}
+.conteiner-all2 img {
+  width: 500px;
+  margin: 55px;
+}
+.conteiner-all2 h2 {
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: 700;
+
+  text-align: center;
+}
+.conteiner-all2 img {
+  width: 400px;
+  float: right;
+  margin: 20px;
+}
+.conteiner-all2__p-button {
+  border: 2px solid orange;
+  width: 140px;
+  text-align: center;
+  border-radius: 20px;
+  border-width: 5px;
+  background-color: rgb(221, 160, 47);
+  float: center;
+  cursor: pointer;
+}
+.conteiner-all2 .conteiner-all2__p-button {
+  text-align: center;
+}
+.conteiner-all2 .conteiner-all2__p-button a {
+  text-decoration: none;
+}
+
+.main-contenedor {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: #068760;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.main-contenedor h3 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.main-contenedor img {
+  /*IMAGENES LENGUAJES*/
+
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  transform: scale(0.9, 0.8);
+  transition: all 2s;
+}
+
+.nav-footer a {
+  text-decoration: none;
+  color: black;
+}
+.nav-footer {
+  background: #ccc;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
